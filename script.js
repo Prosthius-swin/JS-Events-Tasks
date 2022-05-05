@@ -7,3 +7,8 @@ function two()
 {
     document.getElementById('helloWorld').innerHTML = "Goodbye Mars"
 }
+
+function three()
+{
+    document.getElementById('helloWorld').innerHTML = "Ipsum Dominum"
+}
