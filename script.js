@@ -26,6 +26,18 @@ function bg()
 
 function disabled()
 {
-    console.log("disabled")
     document.getElementById('disabled').disabled = true;
+}
+
+function enable()
+{
+    if(document.getElementById('enable').innerHTML === "Enable Change bg" && document.getElementById('disabled').disabled === true)
+    {
+        document.getElementById('enable').innerHTML = "Disable Change bg"
+        document.getElementById('disabled').disabled = false;
+    } else 
+    {
+        document.getElementById('enable').innerHTML = "Enable Change bg"
+        document.getElementById('disabled').disabled = true;
+    }
 }
