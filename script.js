@@ -1,19 +1,25 @@
 function helloWorld()
 {
-    document.getElementById('helloWorld').innerHTML = "Hello World"
+    document.getElementById('helloWorld').innerHTML = "Hello World";
 }
 
 function two()
 {
-    document.getElementById('helloWorld').innerHTML = "Goodbye Mars"
+    document.getElementById('helloWorld').innerHTML = "Goodbye Mars";
 }
 
 function three()
 {
-    document.getElementById('helloWorld').innerHTML = "Ipsum Dominum"
+    document.getElementById('helloWorld').innerHTML = "Ipsum Dominum";
 }
 
 function four()
 {
-    document.body.style.backgroundColor = "green";
+    if(document.body.style.backgroundColor === "green")
+    {
+        document.body.style.backgroundColor = "red";
+    } else
+    {
+        document.body.style.backgroundColor = "green";
+    }
 }
