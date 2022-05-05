@@ -12,3 +12,8 @@ function three()
 {
     document.getElementById('helloWorld').innerHTML = "Ipsum Dominum"
 }
+
+function four()
+{
+    document.body.style.backgroundColor = "green";
+}
