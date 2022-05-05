@@ -13,7 +13,7 @@ function three()
     document.getElementById('helloWorld').innerHTML = "Ipsum Dominum";
 }
 
-function four()
+function bg()
 {
     if(document.body.style.backgroundColor === "green")
     {
@@ -22,4 +22,10 @@ function four()
     {
         document.body.style.backgroundColor = "green";
     }
+}
+
+function disabled()
+{
+    console.log("disabled")
+    document.getElementById('disabled').disabled = true;
 }
